@@ -3192,6 +3192,7 @@
 /* Footer */
 
 	#footer {
+		text-align: center;
 		padding: 5em 0 6em 0 ;
 		background-color: #f6f6f6;
 	}
@@ -3216,7 +3217,7 @@
 			}
 
 			#footer > .inner section:nth-child(1) {
-				width: calc(66% - 2.5em);
+				width: calc(100% - 2.5em);
 				margin-right: 2.5em;
 			}
 
@@ -3259,7 +3260,7 @@
 			}
 
 				#footer > .inner section:nth-child(1) {
-					width: calc(66% - 1.25em);
+					width: calc(100% - 1.25em);
 					margin-right: 1.25em;
 				}
 
@@ -3273,7 +3274,7 @@
 		@media screen and (max-width: 980px) {
 
 			#footer > .inner section:nth-child(1) {
-				width: 66%;
+				width: 100%;
 				margin-right: 0;
 			}
 
