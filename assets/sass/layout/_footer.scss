@@ -22,7 +22,7 @@
 			}
 
 			section:nth-child(1) {
-				width: calc(66% - #{$gutter});
+				width: calc(100% - #{$gutter});
 				margin-right: $gutter;
 			}
 
